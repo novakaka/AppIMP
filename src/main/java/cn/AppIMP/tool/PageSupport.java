@@ -2,8 +2,7 @@ package cn.AppIMP.tool;
 
 /**
  * 分页工具类
- * @author 
- *
+ * @author
  */
 public class PageSupport {
 	//当前页码-来自于用户输入

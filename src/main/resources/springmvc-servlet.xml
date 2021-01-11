@@ -35,7 +35,6 @@
                 <property name="suffix" value=".jsp"/>
         </bean>
 
-
         <!-- 配置前端控制器 不要拦截 /static/** 的请求  -->
         <mvc:resources location="/statics/" mapping="/statics/**"/>
 
@@ -47,6 +46,4 @@
         <property name="maxUploadSize" value="1024000" />
         <property name="maxInMemorySize" value="4096" />
     </bean>
-
-
 </beans>

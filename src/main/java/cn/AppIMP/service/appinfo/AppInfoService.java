@@ -95,4 +95,6 @@ public interface AppInfoService {
 	 * @throws Exception
 	 */
 	public boolean appsysUpdateSaleStatusByAppId(AppInfo appInfo) throws Exception;
+
+
 }
